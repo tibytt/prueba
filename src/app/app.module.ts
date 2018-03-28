@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { MarketComponent } from './market/market.component';
 import { CollectionComponent } from './collection/collection.component';
 import { CollectableService } from './collectable.service';
+import { HeaderComponent } from './header/header.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     MarketComponent,
-    CollectionComponent
+    CollectionComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
